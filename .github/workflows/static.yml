@@ -40,7 +40,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: '$GITHUB_WORKSPACE/dist'
+          path: $GITHUB_WORKSPACE/dist
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
