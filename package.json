@@ -2,6 +2,7 @@
   "name": "youtube-convert",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://mattheffnt.github.io/StringEdit",
   "type": "module",
   "scripts": {
     "dev": "vite",
