@@ -6,6 +6,7 @@ function YouTubeEmbedConverter() {
 
   const desiredWidth = "210";
   const desiredHeight = "150";
+  // use regex to find the width/heigh patter in the embed link
   const pattern = /width="\d+" height="\d+"/g;
 
   const handleInputChange = (event: any) => {
